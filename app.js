@@ -16,6 +16,10 @@ app.get("/", (req, res) => {
   res.send("Welcome to my App");
 });
 
+app.get("/123", (req, res) => {
+  res.send("Welcome to my App");
+});
+
 app.use("/api", router);
 app.use(errorHandler);
 
