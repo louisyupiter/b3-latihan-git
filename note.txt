@@ -1,0 +1,76 @@
+- mongodb https://www.mongodb.com/try/download/community
+
+- create project
+
+- routers
+
+- mongoose https://mongoosejs.com/
+
+- connect db
+
+- model
+
+- create schema using case
+
+case:
+Student
+- fullname
+- email
+- telp
+
+Grade
+- gradename
+- score
+
+------------------------------
+
+part2
+
+API post create new Student
+
+    pakai req.body
+
+API get all students
+
+    if data student notfound - handler
+
+API req.params to get specific studentname
+
+API to update student fullname/email
+
+API to delete student
+
+-----------------------------
+
+create schema Grade
+
+create post grade
+
+reference
+create patch student untuk ngepush gradeId
+populate
+
+timestamp mongoose
+
+validator schema
+
+-----------------------------
+
+Model.create() ini asyncronus
+
+asyncronus why?
+kita nulis sesuatu di db,
+db blum tntu di local/cloud,
+butuh waktu melaksanakan intruksinya.
+
+------------------------------
+
+npm i bcryptjs
+npm i jsonwebtoken
+
+register
+
+login
+
+using authentication untuk validasi token ke route lain
+
